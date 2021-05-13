@@ -1,0 +1,17 @@
+{
+  "name": "@pnpm-lockfile-issue/sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lockfile": "node makeLockfile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pnpm/find-workspace-dir": "^3.0.0",
+    "@pnpm/make-dedicated-lockfile": "^0.2.5"
+  }
+}
